@@ -218,7 +218,7 @@ export function LoginPage({ onEnter, onLogin }) {
               onClick={handleDemoLogin}
               disabled={loading}
             >
-              {loading ? "Loading..." : "Demo Login (No Backend Required)"}
+              {loading ? "Loading..." : "Try Demo Login"}
             </Button>
           </div>
 
